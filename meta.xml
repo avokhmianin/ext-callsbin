@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright 1999-2016. Parallels IP Holdings GmbH. -->
 <module>
-    <id>ext-callsbin</id>
-    <name>Enable/disable debug logging using CallSbin</name>
+    <id>ext-callsbin-example</id>
+    <name>Using callsbin example</name>
     <description>Example extension of using CallSbin on Plesk for Windows.</description>
     <version>1.0</version>
     <release>1</release>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright 1999-2016. Parallels IP Holdings GmbH. -->
 <module>
-    <id>ext-callsbin-example</id>
-    <name>Using callsbin example</name>
-    <description>Example extension of using CallSbin on Plesk for Windows.</description>
+    <id>privileged-call-win</id>
+    <name>Privileged Call Example for Windows</name>
+    <description>Demonstrates how to perform a privileged binary execution.</description>
     <version>1.0</version>
     <release>1</release>
     <vendor>Plesk</vendor>

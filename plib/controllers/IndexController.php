@@ -8,23 +8,23 @@ class IndexController extends pm_Controller_Action
 
     public function enabledebugAction()
     {
-            $result = pm_ApiCli::callSbin("enable-debug.cmd");
-            if ($result['code'] !== 0) {
-                $this->_status->addError("Failed to enable debug logging: {$result['stdout']} {$result['stderr']}");
-            } else {
-                $this->_status->addMessage('info', 'Debug logging enabled.');
-            }
+        $result = pm_ApiCli::callSbin("enable-debug.cmd");
+        if ($result['code'] !== 0) {
+            $this->_status->addError("Failed to enable debug logging: {$result['stdout']} {$result['stderr']}");
+        } else {
+            $this->_status->addMessage('info', 'Debug logging enabled.');
+        }
         $this->_redirect('index/index');
     }
 
     public function disabledebugAction()
     {
-            $result = pm_ApiCli::callSbin("disable-debug.cmd");
-            if ($result['code'] !== 0) {
-                $this->_status->addError("Failed to enable debug logging: {$result['stdout']} {$result['stderr']}");
-            } else {
-                $this->_status->addMessage('info', 'Debug logging disabled.');
-            }
+        $result = pm_ApiCli::callSbin("disable-debug.cmd");
+        if ($result['code'] !== 0) {
+            $this->_status->addError("Failed to enable debug logging: {$result['stdout']} {$result['stderr']}");
+        } else {
+            $this->_status->addMessage('info', 'Debug logging disabled.');
+        }
         $this->_redirect('index/index');
     }
 }

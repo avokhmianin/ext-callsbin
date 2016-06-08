@@ -1,7 +1,7 @@
-Example of using CallSbin in Plesk for Windows.
+Privileged Call Example for Windows.
 
-This example extension demonstrates using CallSbin method when developing Plesk for Windows extensions.
+This extension example demonstrates how to perform a privileged binary execution.
 
 The following techniques are demonstrated:
-* Using CallSbin method
-* Enabling/Disabling debug logging in Plesk for Windows
+* Usage of pm_ApiCli::callSbin() method
+* Enabling/disabling of debug logging for Plesk for Windows

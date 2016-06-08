@@ -6,7 +6,7 @@ class IndexController extends pm_Controller_Action
     {
     }
 
-    public function enabledebugAction()
+    public function enableDebugAction()
     {
         $result = pm_ApiCli::callSbin("enable-debug.cmd");
         if ($result['code'] !== 0) {
@@ -17,7 +17,7 @@ class IndexController extends pm_Controller_Action
         $this->_redirect('index/index');
     }
 
-    public function disabledebugAction()
+    public function disableDebugAction()
     {
         $result = pm_ApiCli::callSbin("disable-debug.cmd");
         if ($result['code'] !== 0) {
